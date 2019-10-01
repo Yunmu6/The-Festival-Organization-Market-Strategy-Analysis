@@ -1,0 +1,938 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10200.17.0328.0755                               -->
+<workbook source-build='10.2.1 (10200.17.0328.0755)' source-platform='win' version='10.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (NewBoth)' inline='true' name='federated.1abw0kb1g5rt21128ec2h068le31' version='10.2'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NewBoth' name='excel-direct.145tq751d3jotc1g3a6k91dfgmd0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Rstudiofile/NewBoth.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.145tq751d3jotc1g3a6k91dfgmd0' name='Sheet2' table='[Sheet2$]' type='table'>
+          <columns gridOrigin='A1:AO93:no:A1:AO93:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='Total.All.Revenue' ordinal='1' />
+            <column datatype='real' name='Total.Donations' ordinal='2' />
+            <column datatype='real' name='Total.Ticket.Revenue' ordinal='3' />
+            <column datatype='real' name='X2004.Total.Cost' ordinal='4' />
+            <column datatype='real' name='X2005.Total.Cost' ordinal='5' />
+            <column datatype='real' name='X2006.Total.Cost' ordinal='6' />
+            <column datatype='real' name='X2007.Total.Cost' ordinal='7' />
+            <column datatype='integer' name='X2008.Total.Cost' ordinal='8' />
+            <column datatype='integer' name='X2009.Total.Cost' ordinal='9' />
+            <column datatype='integer' name='X2010.Total.Cost' ordinal='10' />
+            <column datatype='integer' name='X2011.Total.Cost' ordinal='11' />
+            <column datatype='real' name='X2012.Total.Cost' ordinal='12' />
+            <column datatype='real' name='X2013.Total.Cost' ordinal='13' />
+            <column datatype='real' name='X2014.Total.Cost' ordinal='14' />
+            <column datatype='real' name='X2015.Total.Cost' ordinal='15' />
+            <column datatype='integer' name='X2004.Donation' ordinal='16' />
+            <column datatype='integer' name='X2005.Donation' ordinal='17' />
+            <column datatype='integer' name='X2006.Donation' ordinal='18' />
+            <column datatype='integer' name='X2007.Donation' ordinal='19' />
+            <column datatype='integer' name='X2008.Donation' ordinal='20' />
+            <column datatype='integer' name='X2009.Donation' ordinal='21' />
+            <column datatype='integer' name='X2010.Donation' ordinal='22' />
+            <column datatype='real' name='X2011.Donation' ordinal='23' />
+            <column datatype='real' name='X2012.Donation' ordinal='24' />
+            <column datatype='integer' name='X2013.Donation' ordinal='25' />
+            <column datatype='integer' name='X2014.Donation' ordinal='26' />
+            <column datatype='integer' name='X2015.Donation' ordinal='27' />
+            <column datatype='integer' name='KmeansClustering_3.cluster' ordinal='28' />
+            <column datatype='real' name='2004 Revenue' ordinal='29' />
+            <column datatype='real' name='2005 Revenue' ordinal='30' />
+            <column datatype='real' name='2006 Revenue' ordinal='31' />
+            <column datatype='real' name='2007 Revenue' ordinal='32' />
+            <column datatype='integer' name='2008 Revenue' ordinal='33' />
+            <column datatype='integer' name='2009 Revenue' ordinal='34' />
+            <column datatype='integer' name='2010 Revenue' ordinal='35' />
+            <column datatype='real' name='2011 Revenue' ordinal='36' />
+            <column datatype='real' name='2012 Revenue' ordinal='37' />
+            <column datatype='real' name='2013 Revenue' ordinal='38' />
+            <column datatype='real' name='2014 Revenue' ordinal='39' />
+            <column datatype='real' name='2015 Revenue' ordinal='40' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.All.Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.All.Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Total.All.Revenue</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Donations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.Donations]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Total.Donations</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Ticket.Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.Ticket.Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Total.Ticket.Revenue</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2004.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2004.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2004.Total.Cost</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2005.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2005.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2005.Total.Cost</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2006.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2006.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2006.Total.Cost</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2007.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2007.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2007.Total.Cost</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2008.Total.Cost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2008.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2008.Total.Cost</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2009.Total.Cost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2009.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2009.Total.Cost</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2010.Total.Cost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2010.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2010.Total.Cost</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2011.Total.Cost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2011.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2011.Total.Cost</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2012.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2012.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2012.Total.Cost</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2013.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2013.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2013.Total.Cost</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2014.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2014.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2014.Total.Cost</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2015.Total.Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2015.Total.Cost]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2015.Total.Cost</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2004.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2004.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2004.Donation</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2005.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2005.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2005.Donation</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2006.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2006.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2006.Donation</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2007.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2007.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2007.Donation</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2008.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2008.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2008.Donation</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2009.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2009.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2009.Donation</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2010.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2010.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2010.Donation</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2011.Donation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2011.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2011.Donation</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2012.Donation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X2012.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2012.Donation</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2013.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2013.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2013.Donation</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2014.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2014.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2014.Donation</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2015.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2015.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2015.Donation</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KmeansClustering_3.cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KmeansClustering_3.cluster]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>KmeansClustering_3.cluster</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2004 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2004 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2004 Revenue</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2005 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2005 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2005 Revenue</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2006 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2006 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2006 Revenue</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2007 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2007 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2007 Revenue</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2008 Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2008 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2008 Revenue</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2009 Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2009 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2009 Revenue</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010 Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2010 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2010 Revenue</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2011 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2011 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2011 Revenue</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2012 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2012 Revenue</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2013 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2013 Revenue</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2014 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2014 Revenue</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015 Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2015 Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>2015 Revenue</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AO93:no:A1:AO93:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='KmeansClustering 3.cluster' datatype='integer' name='[KmeansClustering_3.cluster]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.0521415' measure-ordering='alphabetic' measure-percentage='0.947858' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Revenue of Cluster 2 over years&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (NewBoth)' name='federated.1abw0kb1g5rt21128ec2h068le31' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1abw0kb1g5rt21128ec2h068le31'>
+            <column datatype='real' name='[2004 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2005 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2006 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2007 Revenue]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2008 Revenue]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2009 Revenue]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2010 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2011 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2012 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2013 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2014 Revenue]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2015 Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[2004 Revenue]' derivation='Sum' name='[sum:2004 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2005 Revenue]' derivation='Sum' name='[sum:2005 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2006 Revenue]' derivation='Sum' name='[sum:2006 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2007 Revenue]' derivation='Sum' name='[sum:2007 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2008 Revenue]' derivation='Sum' name='[sum:2008 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2009 Revenue]' derivation='Sum' name='[sum:2009 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2010 Revenue]' derivation='Sum' name='[sum:2010 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2011 Revenue]' derivation='Sum' name='[sum:2011 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2012 Revenue]' derivation='Sum' name='[sum:2012 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2013 Revenue]' derivation='Sum' name='[sum:2013 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2014 Revenue]' derivation='Sum' name='[sum:2014 Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2015 Revenue]' derivation='Sum' name='[sum:2015 Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1abw0kb1g5rt21128ec2h068le31].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2004 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2005 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2006 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2007 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2008 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2009 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2010 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2011 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2012 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2013 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2014 Revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1abw0kb1g5rt21128ec2h068le31].[sum:2015 Revenue:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1abw0kb1g5rt21128ec2h068le31].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1abw0kb1g5rt21128ec2h068le31].[Multiple Values]' scope='rows' value='Total Revenue' />
+            <format attr='subtitle' class='0' field='[federated.1abw0kb1g5rt21128ec2h068le31].[Multiple Values]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.1abw0kb1g5rt21128ec2h068le31].[Multiple Values]' scope='rows' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <reference-line axis-column='[federated.1abw0kb1g5rt21128ec2h068le31].[Multiple Values]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1abw0kb1g5rt21128ec2h068le31].[Multiple Values]' z-order='1' />
+          </pane>
+        </panes>
+        <rows>[federated.1abw0kb1g5rt21128ec2h068le31].[Multiple Values]</rows>
+        <cols>[federated.1abw0kb1g5rt21128ec2h068le31].[:Measure Names]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='vertical'>
+              <node-reference>
+                <axis>[federated.1abw0kb1g5rt21128ec2h068le31].[Multiple Values]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

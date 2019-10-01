@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10200.17.0328.0755                               -->
+<workbook source-build='10.2.1 (10200.17.0328.0755)' source-platform='win' version='10.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (NewDonor)' inline='true' name='federated.1l4tyu90ex27g312g9hlp1r28nop' version='10.2'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NewDonor' name='excel-direct.1ov5nig0pw78mh152th6610vadj5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Rstudiofile/NewDonor.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1ov5nig0pw78mh152th6610vadj5' name='Sheet2' table='[Sheet2$]' type='table'>
+          <columns gridOrigin='A1:M59:no:A1:M59:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='X2004.Donation' ordinal='1' />
+            <column datatype='integer' name='X2005.Donation' ordinal='2' />
+            <column datatype='integer' name='X2006.Donation' ordinal='3' />
+            <column datatype='integer' name='X2007.Donation' ordinal='4' />
+            <column datatype='integer' name='X2008.Donation' ordinal='5' />
+            <column datatype='integer' name='X2009.Donation' ordinal='6' />
+            <column datatype='integer' name='X2010.Donation' ordinal='7' />
+            <column datatype='integer' name='X2011.Donation' ordinal='8' />
+            <column datatype='integer' name='X2012.Donation' ordinal='9' />
+            <column datatype='integer' name='X2013.Donation' ordinal='10' />
+            <column datatype='integer' name='X2014.Donation' ordinal='11' />
+            <column datatype='integer' name='KmeansClustering.cluster' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2004.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2004.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2004.Donation</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2005.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2005.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2005.Donation</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2006.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2006.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2006.Donation</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2007.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2007.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2007.Donation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2008.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2008.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2008.Donation</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2009.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2009.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2009.Donation</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2010.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2010.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2010.Donation</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2011.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2011.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2011.Donation</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2012.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2012.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2012.Donation</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2013.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2013.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2013.Donation</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X2014.Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X2014.Donation]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>X2014.Donation</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KmeansClustering.cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KmeansClustering.cluster]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>KmeansClustering.cluster</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M59:no:A1:M59:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.162011' measure-ordering='alphabetic' measure-percentage='0.837989' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>The Donation of Cluster 2 over years&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (NewDonor)' name='federated.1l4tyu90ex27g312g9hlp1r28nop' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l4tyu90ex27g312g9hlp1r28nop'>
+            <column datatype='integer' name='[X2004.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2005.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2006.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2007.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2008.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2009.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2010.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2011.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2012.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2013.Donation]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[X2014.Donation]' role='measure' type='quantitative' />
+            <column-instance column='[X2004.Donation]' derivation='Sum' name='[sum:X2004.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2005.Donation]' derivation='Sum' name='[sum:X2005.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2006.Donation]' derivation='Sum' name='[sum:X2006.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2007.Donation]' derivation='Sum' name='[sum:X2007.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2008.Donation]' derivation='Sum' name='[sum:X2008.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2009.Donation]' derivation='Sum' name='[sum:X2009.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2010.Donation]' derivation='Sum' name='[sum:X2010.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2011.Donation]' derivation='Sum' name='[sum:X2011.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2012.Donation]' derivation='Sum' name='[sum:X2012.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2013.Donation]' derivation='Sum' name='[sum:X2013.Donation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[X2014.Donation]' derivation='Sum' name='[sum:X2014.Donation:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1l4tyu90ex27g312g9hlp1r28nop].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2004.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2005.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2006.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2007.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2008.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2009.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2010.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2011.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2012.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2013.Donation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l4tyu90ex27g312g9hlp1r28nop].[sum:X2014.Donation:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1l4tyu90ex27g312g9hlp1r28nop].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <reference-line axis-column='[federated.1l4tyu90ex27g312g9hlp1r28nop].[Multiple Values]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1l4tyu90ex27g312g9hlp1r28nop].[Multiple Values]' z-order='1' />
+          </pane>
+        </panes>
+        <rows>[federated.1l4tyu90ex27g312g9hlp1r28nop].[Multiple Values]</rows>
+        <cols>[federated.1l4tyu90ex27g312g9hlp1r28nop].[:Measure Names]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='34'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1l4tyu90ex27g312g9hlp1r28nop].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
